@@ -50,7 +50,7 @@ int main()
 	printf("세번째 구조체:");
 	printf("\t자료의 주소값(third)=%u\n",third);
 	printf("\t자료값(third->n)=%d\n",third->n);
-	printf("\t자료값(third->next->n)=%d\n",third->next);
+	printf("\t자료값(third->next)=%d\n",third->next);
 	printf("\n\n");
 	free(first);
 	free(second);
