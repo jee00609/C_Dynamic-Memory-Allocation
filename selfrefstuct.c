@@ -32,26 +32,25 @@ int main()
 	second->next=third;
 
 
-	printf("±¸Á¶Ã¼ Å©±â = %d \n\n",sizeof(list));
-	printf("Ã¹¹øÂ° ±¸Á¶Ã¼:");
-	printf("\tÀÚ·áÀÇ ÁÖ¼Ò°ª(first)=%u\n",first);
-	printf("\tÀÚ·á°ª(first->n)=%d\n",first->n);
-	printf("\tÀÚ·á°ª(first->next)=%d\n",first->next);
-	printf("\tÀÚ·á°ª(first->next->n)=%d\n",first->next->n);
+	printf("êµ¬ì¡°ì²´ í¬ê¸° = %d \n\n",sizeof(list));
+	printf("ì²«ë²ˆì§¸ êµ¬ì¡°ì²´:");
+	printf("\tìžë£Œì˜ ì£¼ì†Œê°’(first)=%u\n",first);
+	printf("\tìžë£Œê°’(first->n)=%d\n",first->n);
+	printf("\tìžë£Œê°’(first->next)=%d\n",first->next);
+	printf("\tìžë£Œê°’(first->next->n)=%d\n",first->next->n);
 	
 	printf("\n\n");
-	printf("µÎ¹øÂ° ±¸Á¶Ã¼:");
-	printf("\tÀÚ·áÀÇ ÁÖ¼Ò°ª(second)=%u\n",second);
-	printf("\tÀÚ·á°ª(second->n)=%d\n",second->n);
-	printf("\tÀÚ·á°ª(second->next)=%d\n",second->next);
-	printf("\tÀÚ·á°ª(second->next->n)=%d\n",second->next->n);
+	printf("ë‘ë²ˆì§¸ êµ¬ì¡°ì²´:");
+	printf("\tìžë£Œì˜ ì£¼ì†Œê°’(second)=%u\n",second);
+	printf("\tìžë£Œê°’(second->n)=%d\n",second->n);
+	printf("\tìžë£Œê°’(second->next)=%d\n",second->next);
+	printf("\tìžë£Œê°’(second->next->n)=%d\n",second->next->n);
 
 	printf("\n\n");
-	printf("¼¼¹øÂ° ±¸Á¶Ã¼:");
-	printf("\tÀÚ·áÀÇ ÁÖ¼Ò°ª(third)=%u\n",third);
-	printf("\tÀÚ·á°ª(third->n)=%d\n",third->n);
-	printf("\tÀÚ·á°ª(third->next)=%d\n",third->n);
-	printf("\tÀÚ·á°ª(third->next->n)=%d\n",third->next);
+	printf("ì„¸ë²ˆì§¸ êµ¬ì¡°ì²´:");
+	printf("\tìžë£Œì˜ ì£¼ì†Œê°’(third)=%u\n",third);
+	printf("\tìžë£Œê°’(third->n)=%d\n",third->n);
+	printf("\tìžë£Œê°’(third->next->n)=%d\n",third->next);
 	printf("\n\n");
 	free(first);
 	free(second);
